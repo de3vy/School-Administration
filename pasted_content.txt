@@ -1,0 +1,62 @@
+"I need you to build a comprehensive online application for Progress & Activity Reporting. This application should fully support all the features and data structures outlined below, with dedicated user interfaces for Students, Teachers, and Management (School Administration). Please implement all tables, fields, and relationships as described. Ensure that all linkages, calculated fields, and reporting functionalities are correctly set up within the appropriate user interfaces. Additionally, feel free to suggest any improvements, additional features, or better ways to implement this system based on your expertise in building online applications, especially regarding user experience and role-based access.
+
+The application should manage the following data across different categories:
+
+(Include the entire list of tables and fields as defined in the first answer, from "1. Students" to "15. Feedback")
+
+User Interface Requirements:
+
+The application should have distinct interfaces for the following user roles:
+
+Student Interface:
+
+Profile: Students should be able to view their profile information (Name, Email, Phone, Enrollment Date, etc.).
+Groups: Students should be able to see the groups they are currently enrolled in.
+Learning Journey: Students should be able to view their learning journey, including the list of learning modules.
+Progress: Students should be able to see their progress on each learning module (Status, Completion Date, Assessments).
+Attendance: Students should be able to view their attendance records for each lesson.
+Assignments: Students should be able to see their assigned assignments, their due dates, and their status.
+Interest in Lessons: Students should have a mechanism to express interest in specific upcoming lessons or topics (this might involve a new field or functionality to track this).
+Communication: Students should have a way to communicate with their teachers or administrators (this should integrate with the Communication Log).
+Teacher Interface:
+
+My Groups: Teachers should be able to view the groups they are assigned to.
+Group Management: Teachers should be able to manage their groups, including viewing enrolled students and their progress.
+Lesson Management: Teachers should be able to create, view, edit, and manage lessons for their assigned groups, including recording attendance and linking resources.
+Assignment Management: Teachers should be able to create, assign, view submissions, and grade assignments for their assigned groups.
+Student Progress: Teachers should be able to view and update student progress on learning modules.
+Communication: Teachers should be able to communicate with their students and log these communications.
+Reporting: Teachers should have access to reports relevant to their groups and students (e.g., attendance summaries, assignment completion rates, student progress overview).
+Management (School Administration) Interface:
+
+Dashboard: An overview of key metrics and system status.
+User Management: Ability to manage all user accounts (students, teachers, volunteers) and their roles and permissions.
+Data Management: Full access to create, read, update, and delete all data across all tables (Students, Groups, Teachers, Volunteers, Locations, Activities, Learning Modules, Student Progress, Assignments, Resources, Lessons, Volunteer Logs, Communication Log, Attendance, Feedback).
+Reporting: Ability to generate comprehensive reports across all areas of the application (e.g., student enrollment trends, group capacity, teacher workload, volunteer activity, learning module completion rates, assignment performance, attendance patterns, feedback analysis).
+System Configuration: Ability to manage system-wide settings and configurations.
+App Management (School):
+
+The Management interface should serve as the central hub for app management, allowing administrators to control all aspects of the school's data and the application itself, including user roles, permissions, data integrity, and overall system health.
+
+Key Requirements (Expanded):
+
+Implement all the specified fields with appropriate data types.
+Establish the correct relationships between tables (one-to-many, many-to-many as implied by the linking fields).
+Implement calculated fields where indicated (e.g., 'Is Absent', 'Is Present').
+Create reporting functionalities within each user interface relevant to their role.
+Develop distinct and intuitive user interfaces tailored to the needs of students, teachers, and management.
+Implement secure user authentication and role-based authorization to ensure that users can only access the data and functionalities relevant to their roles.
+Incorporate search and filtering capabilities within each section of the application.
+Implement data validation to ensure data accuracy and integrity.
+Ensure seamless integration between different modules and functionalities.
+Your Suggestions (Enhanced):
+
+Based on your expertise in building online applications for educational or organizational management, please suggest any improvements to this data structure or additional features that would significantly enhance the functionality and user experience for each user role. Consider aspects like:
+
+Enhanced communication tools.
+Automated notifications and alerts.
+More detailed reporting and analytics.
+Integration with other educational platforms or tools.
+Features to support specific learning methodologies.
+Any other innovative features you believe would be beneficial for a school management application focused on progress and activity reporting.
+I look forward to your comprehensive proposal for building this robust online application with dedicated user interfaces."
